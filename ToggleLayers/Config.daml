@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcGIS defaultAssembly="ToggleLayers.dll"
+        defaultNamespace="ToggleLayers"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+	<AddInInfo id="{a86a42b5-61fb-47b1-8ae2-2ea672d987a5}" version="1.0" desktopVersion="3.3">
+		<Name>Toggle Layers</Name>
+		<Description>Toggle layers in a map</Description>
+		<Image>Images\AddinDesktop32.png</Image>
+		<Author>Your Name</Author>
+		<Company>Your Company</Company>
+		<Date>20/11/2024</Date>
+		<Subject>Map Exploration</Subject>
+	</AddInInfo>
+
+	<modules>
+		<insertModule id="ToggleLayers_Module" className="Module1" autoLoad="false" caption="Toggle Layers Module">
+			<groups>
+				<group id="ToggleLayers_Group" caption="Layer Controls" appearsOnAddInTab="true" keytip="L1">
+					<button refID="ToggleLayers_LayerSettingsButton" size="small" />
+					<button refID="ToggleLayers_Button1" size="small" />
+					<button refID="ToggleLayers_Button2" size="small" />
+					<button refID="ToggleLayers_Button3" size="small" />
+					<button refID="ToggleLayers_Button4" size="small" />
+					<button refID="ToggleLayers_Button5" size="small" />
+				</group>
+			</groups>
+			<controls>
+				<button id="ToggleLayers_LayerSettingsButton" caption="Layer Settings" className="LayerSettingsButton" loadOnClick="true"
+						smallImage="pack://application:,,,/ToggleLayers;component/Images/AddInDesktop16.png"
+						largeImage="pack://application:,,,/ToggleLayers;component/Images/AddInDesktop32.png"
+						tooltip="Open the Layer Settings Dockpane" />
+				<button id="ToggleLayers_Button1" caption="1" className="Button1" loadOnClick="true"
+						smallImage="pack://application:,,,/ToggleLayers;component/Images/button1.png"
+						largeImage="pack://application:,,,/ToggleLayers;component/Images/button1.png"
+						tooltip="Toggle visibility of Layer 1" />
+				<button id="ToggleLayers_Button2" caption="2" className="Button2" loadOnClick="true"
+						smallImage="pack://application:,,,/ToggleLayers;component/Images/button2.png"
+						largeImage="pack://application:,,,/ToggleLayers;component/Images/button2.png"
+						tooltip="Toggle visibility of Layer 2" />
+				<button id="ToggleLayers_Button3" caption="3" className="Button3" loadOnClick="true"
+						smallImage="pack://application:,,,/ToggleLayers;component/Images/button1.png"
+						largeImage="pack://application:,,,/ToggleLayers;component/Images/button1.png"
+						tooltip="Toggle visibility of Layer 3" />
+				<button id="ToggleLayers_Button4" caption="4" className="Button4" loadOnClick="true"
+						smallImage="pack://application:,,,/ToggleLayers;component/Images/button2.png"
+						largeImage="pack://application:,,,/ToggleLayers;component/Images/button2.png"
+						tooltip="Toggle visibility of Layer 4" />
+				<button id="ToggleLayers_Button5" caption="5" className="Button5" loadOnClick="true"
+						smallImage="pack://application:,,,/ToggleLayers;component/Images/button1.png"
+						largeImage="pack://application:,,,/ToggleLayers;component/Images/button1.png"
+						tooltip="Toggle visibility of Layer 5" />
+			</controls>
+			<dockPanes>
+				<dockPane id="ToggleLayers_LayerSettingsDockpane" caption="Layer Settings" className="LayerSettingsDockpane" dock="group"
+						  dockWith="esri_core_contentsDockPane" initialLocation="floating">
+					<content className="LayerSettingsView" />
+					<icon>Images\LayerSettings32.png</icon>
+				</dockPane>
+			</dockPanes>
+		</insertModule>
+	</modules>
+</ArcGIS>
