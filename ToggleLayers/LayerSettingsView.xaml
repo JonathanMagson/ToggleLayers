@@ -3,25 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <StackPanel Margin="10">
         <TextBlock Text="Set Layer Names" FontWeight="Bold" Margin="0,0,0,10" />
+
         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
             <TextBlock Text="Layer 1:" Width="100" />
-            <TextBox Width="200" Text="{Binding Layer1, Mode=TwoWay}" />
+            <TextBox Width="200" Text="{Binding Layer1, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
             <TextBlock Text="Layer 2:" Width="100" />
-            <TextBox Width="200" Text="{Binding Layer2, Mode=TwoWay}" />
+            <TextBox Width="200" Text="{Binding Layer2, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
             <TextBlock Text="Layer 3:" Width="100" />
-            <TextBox Width="200" Text="{Binding Layer3, Mode=TwoWay}" />
+            <TextBox Width="200" Text="{Binding Layer3, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
             <TextBlock Text="Layer 4:" Width="100" />
-            <TextBox Width="200" Text="{Binding Layer4, Mode=TwoWay}" />
+            <TextBox Width="200" Text="{Binding Layer4, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
             <TextBlock Text="Layer 5:" Width="100" />
-            <TextBox Width="200" Text="{Binding Layer5, Mode=TwoWay}" />
+            <TextBox Width="200" Text="{Binding Layer5, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" />
         </StackPanel>
     </StackPanel>
 </UserControl>

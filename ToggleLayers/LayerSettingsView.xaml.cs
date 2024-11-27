@@ -2,12 +2,14 @@
 
 namespace ToggleLayers
 {
+    /// <summary>
+    /// Interaction logic for LayerSettingsView.xaml
+    /// </summary>
     public partial class LayerSettingsView : UserControl
     {
         public LayerSettingsView()
         {
-            InitializeComponent();
+            InitializeComponent(); // Link to the XAML components
         }
     }
 }
-;
