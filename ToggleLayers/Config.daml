@@ -28,7 +28,7 @@
 				</group>
 			</groups>
 			<controls>
-				<button id="ToggleLayers_LayerSettingsButton" caption="Layer Settings" className="LayerSettingsButton" loadOnClick="true"
+				<button id="ToggleLayers_LayerSettingsButton" caption="Toggle Settings" className="LayerSettingsButton" loadOnClick="true"
 						smallImage="pack://application:,,,/ToggleLayers;component/Images/AddInDesktop16.png"
 						largeImage="pack://application:,,,/ToggleLayers;component/Images/AddInDesktop32.png"
 						tooltip="Open the Layer Settings Dockpane" />
@@ -37,24 +37,24 @@
 						largeImage="Images\number-1.png"
 						tooltip="Toggle visibility of Layer 1" />
 				<button id="ToggleLayers_Button2" caption="2" className="Button2" loadOnClick="true"
-						smallImage="Images\number-2.pn"
-						largeImage="Images\number-2.pn"
+						smallImage="Images\number-2.png"
+						largeImage="Images\number-2.png"
 						tooltip="Toggle visibility of Layer 2" />
 				<button id="ToggleLayers_Button3" caption="3" className="Button3" loadOnClick="true"
-						smallImage="Images\number-3.pn"
-						largeImage="Images\number-3.pn"
+						smallImage="Images\number-3.png"
+						largeImage="Images\number-3.png"
 						tooltip="Toggle visibility of Layer 3" />
 				<button id="ToggleLayers_Button4" caption="4" className="Button4" loadOnClick="true"
-						smallImage="Images\number-4.pn"
-						largeImage="Images\number-4.pn"
+						smallImage="Images\number-4.png"
+						largeImage="Images\number-4.png"
 						tooltip="Toggle visibility of Layer 4" />
 				<button id="ToggleLayers_Button5" caption="5" className="Button5" loadOnClick="true"
-						smallImage="Images\number-5.pn"
-						largeImage="Images\number-5.pn"
+						smallImage="Images\number-5.png"
+						largeImage="Images\number-5.png"
 						tooltip="Toggle visibility of Layer 5" />
 			</controls>
 			<dockPanes>
-				<dockPane id="ToggleLayers_LayerSettingsDockpane" caption="Layer Settings" className="LayerSettingsDockpane" dock="group"
+				<dockPane id="ToggleLayers_LayerSettingsDockpane" caption="Toggle Settings" className="LayerSettingsDockpane" dock="group"
 						  dockWith="esri_core_contentsDockPane" initialLocation="floating">
 					<content className="LayerSettingsView" />
 					<icon>Images\LayerSettings32.png</icon>
