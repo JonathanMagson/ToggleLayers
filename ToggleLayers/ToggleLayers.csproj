@@ -18,34 +18,37 @@
     <None Remove="Images\button3.png" />
     <None Remove="Images\button4.png" />
     <None Remove="Images\button5.png" />
+    <None Remove="Images\number-1.png" />
+    <None Remove="Images\number-2.png" />
+    <None Remove="Images\number-3.png" />
+    <None Remove="Images\number-4.png" />
+    <None Remove="Images\number-5.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config.daml" />    
+    <Content Include="Config.daml" />
+    <Content Include="Images\number-4.png" />    
     <Resource Include="Images\AddInDesktop16.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\AddInDesktop32.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\button1.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\button2.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\button3.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\button4.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
     <Content Include="DarkImages\AddInDesktop16.png" />
     <Content Include="DarkImages\AddInDesktop32.png" />    
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\button5.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    <Content Include="Images\number-1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\number-2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\number-3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\number-5.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\launchSettings.json" />
