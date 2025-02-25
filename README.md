@@ -39,3 +39,6 @@ Now, pressing the assigned hotkeys will **toggle the corresponding layer visibil
 
 
 ![image](https://github.com/user-attachments/assets/a9de840b-a8a2-426c-8bf0-0e08e147a9b2)
+
+
+Icon attribution: <a href="https://www.flaticon.com/free-icons/numbers" title="numbers icons">Numbers icons created by Abrrakhlaed2626 - Flaticon</a>
