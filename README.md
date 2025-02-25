@@ -6,6 +6,7 @@ The **ToggleLayers** add-in for ArcGIS Pro allows users to quickly toggle the vi
 ## Installation
 
 ### 1. Download the Add-in (`.esriAddInX`)
+https://github.com/JonathanMagson/ToggleLayers/blob/main/ToggleLayers.esriAddinX
 
 ### 2. Install the Add-in
 - Double-click the `.esriAddInX` file to install it.
