@@ -19,8 +19,7 @@ https://github.com/JonathanMagson/ToggleLayers/blob/main/ToggleLayers.esriAddinX
 
 ### 1. Open the Layer Settings Dockpane
 - In the **Toggle Layers** tab of the **Add-in ribbon**, click **Layer Settings**.
-- This opens the **Layer Settings Dockpane**, where you can enter the names of up to five layers.
-- Close the settings window; the names will be saved automatically.
+- This opens the **Layer Settings Dockpane**, where you can enter the layer names (as they appear in contents) of up to five layers.
 
 ### 2. Toggle Layers On/Off
 - Click one of the **Toggle Layer** buttons (**1–5**) to show or hide the corresponding layer.
